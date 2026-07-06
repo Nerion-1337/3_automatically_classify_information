@@ -1,9 +1,9 @@
 [project]
-name = "3_automatically_classify_information"
+name = "hr-analytics-technova"
 version = "0.1.0"
 description = "Analyse des causes de démission chez TechNova Partners et modélisation SHAP"
 readme = "README.md"
-requires-python = ">=3.11"
+requires-python = ">=3.9"
 dependencies = [
     "matplotlib>=3.8.0",
     "numpy>=1.26.0",
@@ -15,6 +15,5 @@ dependencies = [
     "shap>=0.45.0",
 ]
 
-[build-system]
-requires = ["hatchling"]
-build-backend = "hatchling.build"
+[tool.uv]
+package = false
